@@ -15,19 +15,37 @@
 
 @media (max-width: 600px) {
   .intro {
-    height: 93px;
+    height: 300px;
   }
-  .container img {
-    max-width: 25%;
-    padding-top: 20px;
+  .intro-container img {
+    padding-top: 60px;
+    width: 85%;
   }
 }
 
 @media (max-width: 500px) {
-  .intro {
-    height: 30px;
+  .intro-container img {
+    padding-top: 30px;
+    width: 75%;
   }
-  .container img {
+  .intro {
+    height: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .intro {
+    height: 150px;
+  }
+  .intro-container img {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .intro {
+    height: 40px;
+  }
+  .intro-container img {
     display: none;
   }
 }

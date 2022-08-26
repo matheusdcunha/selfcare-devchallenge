@@ -2,11 +2,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
   margin-left: auto;
   margin-right: auto;
   max-width: 1600px;
-  padding: 0px 60px;
+  padding-left: 60px;
+  padding-right: 60px;
   box-sizing: border-box;
+  /* height: 86px; */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.main-header-container {
+  border-bottom: 0.2px solid var(--cor-3);
+}
+
+@media (max-width: 600px) {
+  .main-header h1 {
+    font-size: 1rem;
+  }
+  .main-header p {
+    font-size: 0.8rem;
+  }
+  .main-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
