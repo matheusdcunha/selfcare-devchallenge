@@ -1,3 +1,10 @@
 @import url(./global/global.css);
-@import url(./utilitarios/cores.css);
-@import url(./utilitarios/tipografia.css);
+/* Utilidade */
+@import url(./utilidade/cores.css);
+@import url(./utilidade/tipografia.css);
+@import url(./utilidade/componetes.css);
+/* Header */
+@import url(./global/header.css);
+@import url(./global/introducao.css);
+/* Main */
+@import url(./main/main-header.css);
