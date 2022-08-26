@@ -9,3 +9,6 @@
 /* Main */
 @import url(./main/main-header.css);
 @import url(./main/main-produtos.css);
+/* Footer */
+@import url(./global/footer/footer-contato.css);
+@import url(./global/footer/footer-links.css);
